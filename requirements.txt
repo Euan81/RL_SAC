@@ -1,0 +1,18 @@
+# Core
+numpy>=1.23
+
+# MuJoCo continuous control environments
+# (Walker2d-v5 is provided by gymnasium[mujoco])
+gymnasium[mujoco]>=0.29
+
+# RL algorithm
+stable-baselines3>=2.3
+
+# Utilities
+matplotlib>=3.6
+pandas>=1.5
+tqdm>=4.66
+
+# Optional (video export)
+imageio>=2.34
+imageio-ffmpeg>=0.4
