@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiment artifacts / outputs
+runs/
+logs/
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.mp4
+
+# Data files (only if you don’t want them in git)
+*.npz
+*.npy
