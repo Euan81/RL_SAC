@@ -1,4 +1,4 @@
-# Walker2d SAC Gait Tracking (clean pipeline)
+# Walker2d SAC Gait Tracking
 
 This repo trains 3 SAC agents on Walker2d-v5:
 - `baseline`: native environment reward only
@@ -54,6 +54,6 @@ Then pass `--ref-npz ...` to training.
 
 ## Sign convention note
 
-The default reference shipped with this project (`references/gait_ref_6d_mujoco.npz`) is already in MuJoCo Walker2d joint sign conventions.
+The default reference shipped with this project (`references/gait_ref_6d_mujoco_hipRneg.npz`) is already in MuJoCo Walker2d joint sign conventions.
 
 If you need to adapt a reference with different conventions, do it explicitly using the provided tools (or by changing `joint_signs` in `TrainCfg`).
